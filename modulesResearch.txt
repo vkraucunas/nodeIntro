@@ -1,0 +1,41 @@
+What is the problem that the node.js Module system solves?
+>> Without modules 100% of the code we wrote would have to live in one file.
+
+What built-in function is used to import a module?
+>>require()
+
+What built-in object is used to export a module?
+>>module.exports
+
+What types of values can a module export?
+>>all the things
+
+What are 3 ways to export an object?
+>>Version 1:
+    module.exports = {
+        add: function(a, b) {
+            return a + b;
+        }
+    }
+  Version 2:
+    module.exports.add = function(a, b) {
+        return a + b;
+        }
+  Version 3:
+    exports.add = function(a, b) {
+        return a + b;
+    }
+
+What are 3 kinds of modules?
+>>core modules, file modules, modules from node_modules
+
+
+Name and describe any 3 core modules.
+>> fs, http, gulp
+
+How do you require npm and core modules?
+>> package.json
+
+How do you require file modules?
+
+
